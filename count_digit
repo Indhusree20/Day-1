@@ -1,0 +1,12 @@
+class Solution {
+  public:
+    int countDigits(int n) {
+        int total_digits=0;
+        while(n>0){
+            total_digits++;
+            n=n/10;
+        }
+        return total_digits;
+        
+    }
+};
